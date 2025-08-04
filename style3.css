@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: border-box;
+
+}
+
+*::selection {
+    color:#fff;
+    background-color: black;
+
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#page-1{
+    min-height: 70vh;
+    width: 100%;
+
+}
+
+#page-1 h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 100px;
+    font-size: bolder;
+    position: relative;
+    left: 4vh;
+
+
+}
+
+
+#nav {
+    width: 100%;
+    position: fixed;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#nav-2 .links a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    margin-right: 30px;
+}
+#nav-2 #icons i{
+    font-size: 18px;
+    margin-right: 50px;
+    font-weight: 100;
+}
+#links {
+    padding: 10px;
+
+}
+
+#icons{
+    padding: 10px;
+   
+}
+#icons a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav {
+    position: relative;
+    bottom: 2px;
+   
+
+}
+#page-1 h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 180px;
+    font-size: bolder;
+    position: relative;
+    top: 20vh;
+    line-height: 20vh;
+}
+#video-container {
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    bottom: 5vh;
+  
+    
+}
+#page-2 {
+    min-height: 170vh;
+   
+}
+#page-3 {
+    position: relative;
+    bottom: 10vh;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+img {
+    height: 700px;
+    width: 471.56px;
+}
+#page-4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+#page-4 h1 {
+    font-family:"Poppins", sans-serif;
+    line-height: 30px;
+    position: relative;
+   
+}
+#page-4 h1 p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+#page-4 h1 p a{
+    color: black;
+}
+#page-5 {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 50vh;
+    min-height: 200vh;
+    
+    
+}
+#page-5 h1 {
+    font-family:"Poppins", sans-serif;
+    line-height: 30px;
+    position: relative;
+   
+}
+#page-5 h1 p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+#page-5 h1 p a{
+    color: #000;
+}
+#page-5 #food {
+    position: relative;
+    left: 4vh;
+}
+
+#page-6 img{
+    height: 414.4px;
+    width: 450px;
+    display: flex;
+
+}
+#page-6 #photo1 {
+    position: relative;
+    left: 4vh;
+    bottom: 43vh;
+}
+#page-6 #photo2 {
+    position: relative;
+    left: 90vh;
+    bottom: 100vh;
+}
+#page-7 img{
+    position: relative;
+    left: 70vh;
+    bottom: 60vh;
+    height: 814.4px;
+    width: 900px;
+    
+}
+#page-8 {
+    position: relative;
+    bottom: 80vh;
+}
+#page-8 #footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+    top: 70vh;
+  
+   
+}
+#page-8 #footer #foot1 p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+}
+#page-8 #footer #foot1 a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+#page-8 #footer #foot1 a:hover{
+    text-decoration: underline;
+}
+#page-8 #footer #foot3 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+
+}
+#page-8 #footer #foot3 a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+#page-8 #footer #foot3 a:hover{
+    text-decoration: underline;
+}
+#page-8 #footer #foot2 img {
+    height: 200px;
+    width: 200px;
+}
+.va {
+    position: relative;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10vh;
+    bottom: 20vh;
+    left: 70vh;
+}
+
